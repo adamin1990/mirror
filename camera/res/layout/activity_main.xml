@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:weightSum="8.0"
+    android:background="#BC8F8F" >
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adlayout1"
+        android:orientation="horizontal"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="8.0"
+        android:orientation="vertical"
+        android:weightSum="8.0" >
+
+        <LinearLayout
+            android:id="@id/buttonstext"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="4.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/editText1"
+                style="@style/textViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1.0"
+                android:background="@drawable/sample1"
+                android:text="1. 通过点击下面的按钮启动.\n2. 选择镜像壁纸作为你的动态壁纸。" />
+
+            <ImageView
+                android:id="@id/btnCreate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1.0"
+                android:onClick="onWallpaper"
+                android:padding="5.0dip"
+                android:src="@drawable/be" />
+              <ImageView
+                android:id="@id/create"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1.0"
+                android:onClick="onWallpaper2"
+                android:padding="5.0dip"
+                android:src="@drawable/for" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="4.0"
+            android:orientation="vertical"
+            android:weightSum="3.0" >
+
+            <LinearLayout
+                android:id="@id/lowads"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:id="@id/ad1"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:onClick="onAd1" >
+
+                    <ImageView
+                        android:id="@id/imageLabel1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/glitter" />
+
+                    <TextView
+                        android:id="@id/textLabel1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageLabel1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20.0dip"
+                        android:singleLine="true"
+                        android:text="游戏推荐"
+                        android:textColor="#ff000000"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@id/ad2"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:onClick="onAd2" >
+
+                    <ImageView
+                        android:id="@id/imageLabel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/obama" />
+
+                    <TextView
+                        android:id="@id/textLabel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageLabel2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20.0dip"
+                        android:singleLine="true"
+                        android:text="应用推荐"
+                        android:textColor="#ff000000"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@id/ad3"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:onClick="onAd3" >
+
+                    <ImageView
+                        android:id="@id/imageLabel3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/screenlock" />
+
+                    <TextView
+                        android:id="@id/textLabel3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageLabel3"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20.0dip"
+                        android:singleLine="true"
+                        android:text="更多"
+                        android:textColor="#ff000000"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/lowads2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:id="@id/ad4"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:onClick="onAd4" >
+
+                    <ImageView
+                        android:id="@id/imageLabel4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/airphone" />
+
+                    <TextView
+                        android:id="@id/textLabel4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageLabel4"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20.0dip"
+                        android:singleLine="true"
+                        android:text="Air Call Answer"
+                        android:textColor="#ff000000"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@id/ad5"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:onClick="onAd5" >
+
+                    <ImageView
+                        android:id="@id/imageLabel5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/lovescanner" />
+
+                    <TextView
+                        android:id="@id/textLabel5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageLabel5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20.0dip"
+                        android:singleLine="true"
+                        android:text="Love Scanner"
+                        android:textColor="#ff000000"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@id/ad6"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:onClick="onAd6" >
+
+                    <ImageView
+                        android:id="@id/imageLabel6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/peekaboo" />
+
+                    <TextView
+                        android:id="@id/textLabel6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageLabel6"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20.0dip"
+                        android:singleLine="true"
+                        android:text="Peekaboo Animals"
+                        android:textColor="#ff000000"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+             
+            </LinearLayout>
+               <LinearLayout
+            android:id="@+id/adLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

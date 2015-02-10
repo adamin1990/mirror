@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="adView">false</item>
+    <item type="id" name="buttonstext">false</item>
+    <item type="id" name="editText1">false</item>
+    <item type="id" name="btnCreate">false</item>
+    <item type="id" name="lowads">false</item>
+    <item type="id" name="ad1">false</item>
+    <item type="id" name="imageLabel1">false</item>
+    <item type="id" name="textLabel1">false</item>
+    <item type="id" name="ad2">false</item>
+    <item type="id" name="imageLabel2">false</item>
+    <item type="id" name="textLabel2">false</item>
+    <item type="id" name="ad3">false</item>
+    <item type="id" name="imageLabel3">false</item>
+    <item type="id" name="textLabel3">false</item>
+    <item type="id" name="lowads2">false</item>
+    <item type="id" name="ad4">false</item>
+    <item type="id" name="imageLabel4">false</item>
+    <item type="id" name="textLabel4">false</item>
+    <item type="id" name="ad5">false</item>
+    <item type="id" name="imageLabel5">false</item>
+    <item type="id" name="textLabel5">false</item>
+    <item type="id" name="ad6">false</item>
+    <item type="id" name="imageLabel6">false</item>
+    <item type="id" name="textLabel6">false</item>
+    <item type="id" name="relfulladlayout">false</item>
+    <item type="id" name="fullscreen">false</item>
+    <item type="id" name="adcloser">false</item>
+    <item type="id" name="mainLayout">false</item>
+    <item type="id" name="endClose">false</item>
+    <item type="id" name="adWebView">false</item>
+    <item type="id" name="create">false</item>
+</resources>
